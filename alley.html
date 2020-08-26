@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Diagon Alley</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="pensieve-bg">
+
+
+  <section class="wish-sec" style="display:none">
+    <img class="prophecy-img" src="images/prophecy.jpg" width="100%" height="100%" alt="">
+    <div class="wish-intro">
+
+
+      <p class="shop1"><span style="color:#00ffe7;">Make A Wish!</span></p>
+      <br>
+      <p class="shop2">I am a Genie at your service! So you can make 3 wishes and I will be obliged to fulfill it...<br />Kya Hukm Hai Mere Aaka!</p>
+    </div>
+    <div class="wish-form">
+      <form class="wish-enter" action="mailto:amandixit04@gmail.com" method="post" enctype="text/plain">
+        <p class="wish-num">Wish #1:</p> <br>
+        <textarea class="wish-input" id="wish-1" name="Wish-1" placeholder="--Make A Wish!--"></textarea><br>
+        <p class="wish-num">Wish #2:</p>
+        <textarea class="wish-input" id="wish-2" name="Wish-2" placeholder="--Make A Wish!--"></textarea><br>
+        <p class="wish-num">Wish #3:</p>
+        <textarea class="wish-input" id="wish-3" name="Wish-3" placeholder="--Make A Wish!--"></textarea><br>
+        <input class="inp-but" type="submit" value="Wish!">
+        <input class="inp-but" type="reset" value="Reset">
+
+
+      </form>
+
+    </div>
+    <a href="alley.html" class="closebtn">&times;</a>
+    </div>
+  </section>
+  <section class="gift-sec" style="display=none;">
+    <div class="gift-bg-fg">
+
+
+
+      <div class="wish-intro">
+        <p class="shop1"><span style="color:red;"><u>Welcome To Aman's Gift Shop!</u></span></p>
+        <br>
+        <p class="shop2">Here Are Some Vouchers You Can Buy Using Your Gringotts Bank Balance!</p>
+        <br>
+        <div class="line-pic-line">
+          <hr class="line">
+          <p class="shop2" style="background-color:black;margin:0;"><span style="color:#efc66a;">One Time Use Vouchers</span></p>
+          <hr class="line">
+        </div>
+      </div>
+      <div class="">
+        <form class="voucher-form" action="mailto:amandixit04@gmail.com?subject= List of Vouchers Bought!" method="post" enctype="text/plain">
+
+
+          <div class="row" style=" margin-right: 0px;">
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-1" src="images/coupon-1.png" alt="" onclick="myFunction(this);">
+              <input class="check-1" type="checkbox" name="coupon-1" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-1" type="button" name="coupon-1" value="Add To Cart!">
+            </div>
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-2" src="images/coupon-2.png" alt="" onclick="myFunction(this);">
+              <input class="check-2" type="checkbox" name="coupon-2" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-2" type="button" name="coupon-2" value="Add To Cart!">
+            </div>
+          </div>
+          <hr class="line-voucher">
+          <div class="row" style=" margin-right: 0px;">
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-3" src="images/coupon-3.png" alt="" onclick="myFunction(this);">
+              <input class="check-3" type="checkbox" name="coupon-3" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-3" type="button" name="coupon-3" value="Add To Cart!">
+            </div>
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-4" src="images/coupon-4.png" alt="" onclick="myFunction(this);">
+              <input class="check-4" type="checkbox" name="coupon-4" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-4" type="button" name="coupon-4" value="Add To Cart!">
+            </div>
+          </div>
+          <hr class="line-voucher">
+          <div class="row" style=" margin-right: 0px;">
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-5" src="images/coupon-5.png" alt="" onclick="myFunction(this);">
+              <input class="check-5" type="checkbox" name="coupon-5" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-5" type="button" name="coupon-5" value="Add To Cart!">
+            </div>
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-6" src="images/coupon-6.png" alt="" onclick="myFunction(this);">
+              <input class="check-6" type="checkbox" name="coupon-6" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-6" type="button" name="coupon-6" value="Add To Cart!">
+            </div>
+          </div>
+          <hr class="line-voucher">
+          <div class="row" style=" margin-right: 0px;">
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-7" src="images/coupon-7.png" alt="" onclick="myFunction(this);">
+              <input class="check-7" type="checkbox" name="coupon-7" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-7" type="button" name="coupon-7" value="Add To Cart!">
+            </div>
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-8" src="images/coupon-8.png" alt="" onclick="myFunction(this);">
+              <input class="check-8" type="checkbox" name="coupon-8" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-8" type="button" name="coupon-8" value="Add To Cart!">
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+          <div class="line-pic-line">
+            <hr class="line">
+            <p class="shop2" style="background-color:#800300;margin:0;"><span style="color:#efc66a;">Many Time Use Vouchers</span></p>
+            <hr class="line">
+          </div>
+
+          <div class="row" style=" margin-right: 0px;">
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-9" src="images/coupon-9.png" alt="" onclick="myFunction(this);">
+              <input class="check-9" type="checkbox" name="coupon-9" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-9" type="button" name="coupon-9" value="Add To Cart!">
+              <select class="dd" id="dd-9" >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <input id="amount-voucher-9" type="text" name="Number of Coupon-9" value="0" style="display:none;">
+            </div>
+            <div class="catg-voucher column">
+              <img class="voucher-img voucher-img-10" src="images/coupon-10.png" alt="" onclick="myFunction(this);">
+              <input class="check-10" type="checkbox" name="coupon-10" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+              <input class="add-but add-but-10" type="button" name="coupon-10" value="Add To Cart!">
+              <select class="dd" id="dd-10" >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <input id="amount-voucher-10" type="text" name="Number of Coupon-10" value="0" style="display:none;">
+            </div>
+                  </div>
+            <hr class="line-voucher">
+            <div class="row" style=" margin-right: 0px;">
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-11" src="images/coupon-11.png" alt="" onclick="myFunction(this);">
+                <input class="check-11" type="checkbox" name="coupon-11" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-11" type="button" name="coupon-11" value="Add To Cart!">
+                <select class="dd" id="dd-11" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-11" type="text" name="Number of Coupon-11" value="0" style="display:none;">
+              </div>
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-12" src="images/coupon-12.png" alt="" onclick="myFunction(this);">
+                <input class="check-12" type="checkbox" name="coupon-12" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-12" type="button" name="coupon-12" value="Add To Cart!">
+                <select class="dd" id="dd-12" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <input id="amount-voucher-12" type="text" name="Number of Coupon-12" value="0" style="display:none;">
+              </div>
+            </div>
+            <hr class="line-voucher">
+            <div class="row" style=" margin-right: 0px;">
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-13" src="images/coupon-13.png" alt="" onclick="myFunction(this);">
+                <input class="check-13" type="checkbox" name="coupon-13" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-13" type="button" name="coupon-13" value="Add To Cart!">
+                <select class="dd" id="dd-13" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-13" type="text" name="Number of Coupon-13" value="0" style="display:none;">
+              </div>
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-14" src="images/coupon-14.png" alt="" onclick="myFunction(this);">
+                <input class="check-14" type="checkbox" name="coupon-14" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-14" type="button" name="coupon-14" value="Add To Cart!">
+                <select class="dd" id="dd-14" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-14" type="text" name="Number of Coupon-14" value="0" style="display:none;">
+              </div>
+            </div>
+            <hr class="line-voucher">
+            <div class="row" style=" margin-right: 0px;">
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-15" src="images/coupon-15.png" alt="" onclick="myFunction(this);">
+                <input class="check-15" type="checkbox" name="coupon-15" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-15" type="button" name="coupon-15" value="Add To Cart!">
+                <select class="dd" id="dd-15" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-15" type="text" name="Number of Coupon-15" value="0" style="display:none;">
+              </div>
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-16" src="images/coupon-16.png" alt="" onclick="myFunction(this);">
+                <input class="check-16" type="checkbox" name="coupon-16" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-16" type="button" name="coupon-16" value="Add To Cart!">
+                <select class="dd" id="dd-16" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-16" type="text" name="Number of Coupon-16" value="0" style="display:none;">
+              </div>
+            </div>
+            <hr class="line-voucher">
+            <div class="row" style=" margin-right: 0px;">
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-17" src="images/coupon-17.png" alt="" onclick="myFunction(this);">
+                <input class="check-17" type="checkbox" name="coupon-17" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-17" type="button" name="coupon-17" value="Add To Cart!">
+                <select class="dd" id="dd-17" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-17" type="text" name="Number of Coupon-17" value="0" style="display:none;">
+              </div>
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-18" src="images/coupon-18.png" alt="" onclick="myFunction(this);">
+                <input class="check-18" type="checkbox" name="coupon-18" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-18" type="button" name="coupon-18" value="Add To Cart!">
+                <select class="dd" id="dd-18" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-18" type="text" name="Number of Coupon-18" value="0" style="display:none;">
+              </div>
+            </div>
+            <hr class="line-voucher">
+            <div class="row" style=" margin-right: 0px;">
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-19" src="images/coupon-19.png" alt="" onclick="myFunction(this);">
+                <input class="check-19" type="checkbox" name="coupon-19" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-19" type="button" name="coupon-19" value="Add To Cart!">
+                <select class="dd" id="dd-19" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <input id="amount-voucher-19" type="text" name="Number of Coupon-19" value="0" style="display:none;">
+              </div>
+              <div class="catg-voucher column">
+                <img class="voucher-img voucher-img-20" src="images/coupon-20.png" alt="" onclick="myFunction(this);">
+                <input class="check-20" type="checkbox" name="coupon-20" value="Bought!" style="width:35px; height:35px;position:relative; top:10px; cursor:pointer;">
+                <input class="add-but add-but-20" type="button" name="coupon-20" value="Add To Cart!">
+                <select class="dd" id="dd-20" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <input id="amount-voucher-20" type="text" name="Number of Coupon-20" value="0" style="display:none;">
+              </div>
+            </div>
+            <hr class="line-voucher">
+            <input class="checkout-but" type="submit" value="Checkout!">
+        </form>
+      </div>
+      <a href="alley.html" style="position:fixed;" class="closebtn">&times;</a>
+      <div class="container1">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img class="modal-content-voucher" id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      <div class="shop chef-wait" style="width:100px; height:100px ;top:50px;">
+        <p class="balance-para">Bank Balance: <br /><span class="balance" style="color:yellow">100</span> <span style="color:yellow">Galleons</span></p>
+      </div>
+  </section>
+  <section class="bake-sec" style="display:none">
+    <div style="background-color:rgba(0,0,0,0.5);height:100%;">
+
+
+
+    <div class="wish-intro">
+
+
+      <p class="shop1" style="padding-top:2%;margin-top:0;"><span style="color:#00ffe7;">Welcome To Shruti's Bakery</span></p>
+      <br>
+      <p class="shop2">Here Making Yummy Noices Are Mandatory!<br /><span style="color:yellow;"><u>MENU</u></span></p>
+    </div>
+    <section>
+
+
+
+      <div class="row" style=" text-align: center; padding-top: 2%;margin-right:70px;margin-left:70px;">
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #1</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/doll-cake.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Barbie Cake</p>
+        </div>
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #2</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/butterbeer.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Kitkat Thick Shake</p>
+        </div>
+
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #3</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/roll.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Paneer Roll</p>
+        </div>
+        <div class="pri-link">
+          <p class="shop">Cuisine #4</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/choco-cake.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Chocolate Cake</p>
+        </div>
+        <div class="pri-link vip">
+          <p class="shop">VIP Cuisine #1</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/aman-chai.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Aman's Special Chai</p>
+        </div>
+
+
+      </div>
+      <div class="row" style=" text-align: center; padding-top: 2%;margin-right:70px;margin-left:70px;">
+        <div class="pri-link">
+          <p class="shop">Cuisine #5</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/chai.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Shruti's Special Chai</p>
+        </div>
+        <div class="pri-link">
+          <p class="shop">Cuisine #6</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/pizza.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Veg Loaded Pizza</p>
+        </div>
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #7</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/butter-cake.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Butter-Scotch Cake</p>
+        </div>
+
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #8</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/biryani.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Chicken Biryani</p>
+        </div>
+
+
+        <div class="pri-link vip">
+          <p class="shop">VIP Cuisine #2</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/chutney.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Aman's Special Chutney</p>
+        </div>
+      </div>
+      <div class="row" style=" text-align: center; padding-top: 2%;margin-right:70px;margin-left:70px;">
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #9</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/masala.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Masala Papad</p>
+        </div>
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #10</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/straw-cake.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Strawberry Cake</p>
+        </div>
+
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #11</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/gullu.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Gulab Jamun</p>
+        </div>
+        <div class="pri-link">
+          <p class="shop">Cuisine #12</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/manchu.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Manchurian Balls</p>
+        </div>
+        <div class="pri-link vip">
+          <p class="shop">VIP Cuisine #3</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/maggi1.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Aman's Special Maggi</p>
+        </div>
+
+
+      </div>
+      <div class="row" style=" text-align: center; padding-top: 2%;margin-right:70px;margin-left:70px;">
+
+
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #13</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/rasmalai.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Rasmalai</p>
+        </div>
+
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #14</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/thali.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Full Plate Thali</p>
+        </div>
+        <div class="pri-link">
+          <p class="shop">Cuisine #15</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/pakodi.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Aaloo Pakode</p>
+        </div>
+
+        <div class="pri-link">
+          <p class="shop">Cuisine #16</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/idk.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Shruti's Special Surprise</p>
+        </div>
+        <div class="pri-link vip">
+          <p class="shop">VIP Cuisine #4</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/aman-cake.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay">
+              <div class="text" style="font-family:'mason',cursive;">Diagon Alley</div>
+            </div>
+          </div>
+          <p class="shop">Aman's Special Cake</p>
+        </div>
+      </div>
+    </section>
+    <div class="shop chef-wait">
+      <span style="color:yellow;">Head Chef:</span> Shruti Nisal
+      <br>
+      <span style="color:yellow;">Waiter:</span> Aman Dixit
+    </div>
+    <a href="alley.html" class="closebtn">&times;</a>
+      </div>
+  </section>
+
+  <section class="wink-sec" style="display:none">
+
+    <img class="har-her-img" src="images/har-her.jpg" width="100%" height="100%" alt="" style="border-bottom:2px solid yellow;">
+
+    <div class="wish-intro">
+      <p class="shop0"><span style="color:#00ffe7;">If You Blush, You Lose!</span></p>
+      <br>
+      </p>
+    </div>
+    <section class="shruti-compi">
+      <p class="shopshru">The One Where Shruti Was Too Hot To Handle!!</p>
+      <iframe src="https://drive.google.com/file/d/1KclhPrlQjlCh0OaQuSUbqGvKMmmtdGMf/preview" width="350" height="650"></iframe>
+    </section>
+    <section class="aman-compi">
+      <p class="shopaman">The One Where Aman Was Too Hot To Handle!!</p>
+<iframe src="https://drive.google.com/file/d/1lkW5Sx3Pn5DAzpWKqGoIGeEzu6HWuLsX/preview" width="350" height="650"></iframe>
+  </section>
+    <section style="position:absolute;top:100%;text-align:center;width:100%;padding-bottom:5%;">
+        <p class="shopaman"style="padding:2%;">The One Where Aman And Shruti Were Too Cute To Handle!!</p>
+          <iframe src="https://drive.google.com/file/d/1SbonqmwZXlJaPjdCkpgBagnElKEl4eHj/preview" width="960" height="540"></iframe>
+    </section>
+    <a href="alley.html" class="closebtn">&times;</a>
+  </section>
+  <section class="bank-sec" style="display:none">
+    <img class="bank-img" src="images/goblin.jpg" width="100%" height="100%" alt="">
+    <div class="wish-intro">
+
+
+      <p class="shop1"><span style="color:#00ffe7;">Gringotts Bank</span></p>
+      <br>
+      <p class="shop2">Everything Owed Must Be Returned!</p>
+      <p class="owe-per" style="text-align:center;">Items You Owe To Aman</p>
+      <p class="owe-per2" style="text-align:center;">Items Aman Owes To You</p>
+
+      <table class="table table-bordered owed-table " style="width: 40%;">
+
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item Owed</th>
+            <th scope="col">Reason</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Icecream Tub</td>
+            <td>Breaking Bet</td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Twilight + Crunchy Frappe</td>
+            <td>Repairing Laptop</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Twilights x5</td>
+            <td>For saying the word That-Must-Not-Be-Said</td>
+
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>BBQ Party</td>
+            <td>Internship</td>
+
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Shimla Trip</td>
+            <td>First Income</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Birthday Treat(TBD)</td>
+            <td>19th Birthday</td>
+
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Alot of Aman Time</td>
+            <td>For uploading F.R.I.E.N.D.S</td>
+
+          </tr>
+        </tbody>
+      </table>
+      <table class="table table-bordered owed-table2 " style="width: 43%;">
+
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item Owed</th>
+            <th scope="col">Reason</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Twilight <span style="color: yellow;">+ 10 Galleons</span></td>
+            <td>CCD Challenge</td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Pizza <span style="color: yellow;">+ 10 Galleons</span></td>
+            <td>Guessing Game</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Twilight x5 <span style="color: yellow;">+ 10 Galleons</span></td>
+            <td>For saying the word That-Must-Not-Be-Said</td>
+
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>TBD <span style="color: yellow;">+ 10 Galleons</span></td>
+            <td>DnA Interview Poster</td>
+
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>TBD <span style="color: yellow;">+ 20 Galleons</span></td>
+            <td>DnA and GameDev Secy</td>
+
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Birthday Treat(TBD) <span style="color: yellow;">+ 20 Galleons</span></td>
+            <td>20th Birthday</td>
+
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>TBD <span style="color: yellow;">+ 20 Galleons</span></td>
+            <td>Game Launch</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="shop chef-wait">
+      <p style="color: yellow; margin:0;">Bank Balance: 100 Galleons</p>
+
+      <p style="font-size: 20px;">(1 Galleon = 17 Sickles)
+        <br>
+        (1 Sickle = 29 Knuts)</p>
+    </div>
+    <a href="alley.html" class="closebtn">&times;</a>
+  </section>
+
+  <div class="">
+    <nav class="navbar navbar-expand-lg  nav ">
+      <a class="navbar-brand images" href="#">
+        <img src="images/dobby.png" width="150" height="150" class="nav-img d-inline-block align-top images" alt="" loading="lazy">
+      </a>
+      <a href="private.html" class="top-header">
+        <img src="images/hogwarts.png" width="800" height="100" alt="" class="top-header1 list">
+      </a>
+      <a class="navbar-brand  images" href="#">
+        <img src="images/dobby1.png" width="150" height="150" class="nav-img d-inline-block align-top ml-auto images " alt="" loading="lazy">
+      </a>
+    </nav>
+    <hr class="line">
+    <nav class="navbar navbar-expand-lg nav ">
+      <ul class="navbar-nav list">
+        <li class="navbar-item  hptheme">
+          <a class="nav-link " href="pensieve.html">Pensieve</a>
+        </li>
+        <li class="navbar-item hptheme">
+          <a class="nav-link" href="Hedwig.html">Hedwig</a>
+        </li>
+        <li class="navbar-item hptheme">
+          <a class="nav-link " href="lady.html">Fat Lady</a>
+        </li>
+        <li class="navbar-item hptheme">
+          <a class="nav-link bg-light text-dark" href="alley.html"> Diagon Alley</a>
+        </li>
+        <li class="navbar-item hptheme">
+          <a class="nav-link" href="locked.html">Password?</a>
+        </li>
+        <li class="navbar-item hptheme">
+          <a class="nav-link" href="index.html">Muggle's Site</a>
+        </li>
+      </ul>
+    </nav>
+    <hr class="line">
+    <img class="exp00" src="images/alley.png" alt="">
+
+    <section class="quote-sec">
+      <p class="quote-alley">“The ones that love us never really leave us. You can always find them.”<br>-Sirius Black</p>
+
+    </section>
+    <section class="">
+      <div class="row" style=" text-align: center; margin-right:70px;margin-left:70px;">
+
+        <div class="pri-link-alley shop-bake">
+          <p class="shop">SHOP #1</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/bakery.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay-alley">
+              <img src="images/window2.png" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <p class="shop">Shruti's Bakery</p>
+        </div>
+
+        <div class="pri-link-alley shop-gift">
+          <p class="shop">SHOP #2</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/gift.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay-alley">
+              <img src="images/window2.png" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <p class="shop">Aman's Gift Shop</p>
+        </div>
+
+        <div class="pri-link-alley shop-wink">
+          <p class="shop">SHOP #3</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/wink.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay-alley">
+              <img src="images/window2.png" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <p class="shop">Winky's Museum</p>
+        </div>
+        <div class="pri-link-alley shop-wish">
+          <p class="shop">SHOP #4</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/wish.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay-alley">
+              <img src="images/window2.png" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <p class="shop">Wishpoint</p>
+        </div>
+
+        <div class="pri-link-alley shop-bank">
+          <p class="shop">SHOP #5</p>
+          <div class=" catg1 column" style=" margin-left: 25px;margin-right: 25px;">
+            <img class="myImglink" src="images/gringotts.jpg" alt="---PUTaman---" style="width:100%">
+
+            <div class="overlay-alley">
+              <img src="images/window2.png" width="100%" height="100%" alt="">
+            </div>
+          </div>
+          <p class="shop">Gringotts Bank</p>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
