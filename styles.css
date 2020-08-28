@@ -759,31 +759,69 @@ border: 2px solid white;
   top: 13%;
 
 }
-.next-but1{
-  position:absolute;
-right: 55%;
-  top:1700px;
-  z-index: 10;
+.inp-but1{
+  width: 100px;
+   height:50px;
+   border-radius: 20px;
+   font-family: 'mason',cursive;
+   font-size: 20px;
+   font-weight: 700;
+   border: 2px solid black;
+   background-color: white;
+   margin: 2%;
+   position:absolute;
+ right: 55%;
+   top:1700px;
+   z-index: 10;
+
 }
-.next-but2{
-  position:absolute;
-right:49%;
-  top:1700px;
-  z-index: 10;
+.inp-but2{
+  width: 100px;
+   height:50px;
+   border-radius: 20px;
+   font-family: 'mason',cursive;
+   font-size: 20px;
+   font-weight: 700;
+   border: 2px solid black;
+   background-color: white;
+   margin: 2%;
+   position:absolute;
+ right: 49%;
+   top:1700px;
+   z-index: 10;
+
+}.inp-but3{
+  width: 100px;
+   height:50px;
+   border-radius: 20px;
+   font-family: 'mason',cursive;
+   font-size: 20px;
+   font-weight: 700;
+   border: 2px solid black;
+   background-color: white;
+   margin: 2%;
+   position:absolute;
+ right: 43%;
+   top:1700px;
+   z-index: 10;
+
+}.inp-but4{
+  width: 100px;
+   height:50px;
+   border-radius: 20px;
+   font-family: 'mason',cursive;
+   font-size: 20px;
+   font-weight: 700;
+   border: 2px solid black;
+   background-color: white;
+   margin: 2%;
+   position:absolute;
+ right: 37%;
+   top:1700px;
+   z-index: 10;
+
 }
-.next-but3{
-  position:absolute;
-right: 43%;
-  top:1700px;
-  z-index: 10;
-}
-.next-but4{
-  position:absolute;
-right: 37%;
-  top:1700px;
-  z-index: 10;
-  
-}
+
 
 .myImglink-pri {
   margin-top: auto;
