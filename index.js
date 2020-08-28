@@ -573,6 +573,7 @@ $(".person").hide();
 $(".moments").hide();
 $(".gallery").hide();
 $(".catg").hide();
+$(".gallery0").hide();
 /*----------------------*/
 $(".cat1").click(function(){
   $(".category-list").fadeOut();
@@ -589,73 +590,83 @@ $(".catp1a").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
-  $(".aman").fadeIn("slow");
+  $(".solo").fadeIn("slow");
 
 })
 $(".catp2a").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
-
+$(".aman").fadeIn("slow");
 })
 $(".catp3a").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".preeti").fadeIn("slow");
 
 })
 $(".catp4a").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".panda").fadeIn("slow");
 
 })
 $(".catp1b").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".sanu").fadeIn("slow");
 
 })
 $(".catp2b").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".chini").fadeIn("slow");
 
 })
 $(".catp3b").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".amra").fadeIn("slow");
 
 })
 $(".catp4b").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".kanika").fadeIn("slow");
 
 })
 $(".catp1c").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".ankit").fadeIn("slow");
 
 })
 $(".catp2c").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".mc").fadeIn("slow");
 
 })
 $(".catp3c").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".sparsh").fadeIn("slow");
 
 })
 $(".catp4c").click(function(){
   $(".person").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".namra").fadeIn("slow");
 
 })
 /*----------*/
@@ -667,45 +678,85 @@ $(".catm1a").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".hexa").fadeIn("slow");
 
 })
 $(".catm2a").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".cca").fadeIn("slow");
 
 })
 $(".catm3a").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".anta").fadeIn("slow");
 
 })
 $(".catm4a").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".gb").fadeIn("slow");
 
 })
 $(".catm1b").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".holi").fadeIn("slow");
 
 })
 $(".catm2b").click(function(){
   $(".moments").fadeOut();
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
+  $(".fam").fadeIn("slow");
+
+})
+$(".catm3b").click(function(){
+  $(".moments").fadeOut();
+  $(".box2").fadeOut();
+  $(".gallery").fadeIn();
+  $(".win").fadeIn("slow");
+
+})
+$(".catm4b").click(function(){
+  $(".moments").fadeOut();
+  $(".box2").fadeOut();
+  $(".gallery").fadeIn();
+  $(".room").fadeIn("slow");
 
 })
 
 /*-------------*/
 $(".cat4").click(function(){
   $(".category-list").fadeOut();
+
   $(".box2").fadeOut();
   $(".gallery").fadeIn();
 })
+
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 /*---------------------------------------------------------------------------*/
   /*------------pensieve-------------------------------------------------------*/
@@ -1020,4 +1071,35 @@ $(".back").click(function(){
   $(".num12-msg").css("z-index","-1");
 
 })
+$(".num13-card").click(function(){
+  $(".box-msg").css("z-index","1");
+  $(".num13-msg").css("z-index","2");
+
+})
+$(".back").click(function(){
+  $(".box-msg").css("z-index","-1");
+  $(".num13-msg").css("z-index","-1");
+
+})
+$(".num14-card").click(function(){
+  $(".box-msg").css("z-index","1");
+  $(".num14-msg").css("z-index","2");
+
+})
+$(".back").click(function(){
+  $(".box-msg").css("z-index","-1");
+  $(".num14-msg").css("z-index","-1");
+
+})
+$(".num15-card").click(function(){
+  $(".box-msg").css("z-index","1");
+  $(".num15-msg").css("z-index","2");
+
+})
+$(".back").click(function(){
+  $(".box-msg").css("z-index","-1");
+  $(".num15-msg").css("z-index","-1");
+
+})
+
 /*---------------------------------------------------------------------------*/
