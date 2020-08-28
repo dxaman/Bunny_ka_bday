@@ -1103,22 +1103,22 @@ $(".back").click(function(){
 })
 
 /*---------------------------------------------------------------------------*/
-$(".next-but1").click(function(){
+$(".inp-but1").click(function(){
   $(".letter").hide();
   $(".letter1").fadeIn();
 
 })
-$(".next-but2").click(function(){
+$(".inp-but2").click(function(){
   $(".letter").hide();
   $(".letter2").fadeIn();
 
 })
-$(".next-but3").click(function(){
+$(".inp-but3").click(function(){
   $(".letter").hide();
   $(".letter3").fadeIn();
 
 })
-$(".next-but4").click(function(){
+$(".inp-but4").click(function(){
   $(".letter").hide();
   $(".letter4").fadeIn();
 
