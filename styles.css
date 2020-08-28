@@ -723,7 +723,7 @@ border: 2px solid white;
   position:relative;
 
 }
-.letter{
+.letter1{
   position: absolute;
   right: 20%;
   height: 40%;
@@ -732,6 +732,58 @@ border: 2px solid white;
   top: 13%;
 
 }
+.letter2{
+  position: absolute;
+  right: 20%;
+  height: 40%;
+  width: 60%;
+  z-index: 1;
+  top: 13%;
+
+}
+.letter3{
+  position: absolute;
+  right: 20%;
+  height: 40%;
+  width: 60%;
+  z-index: 1;
+  top: 13%;
+
+}
+.letter4{
+  position: absolute;
+  right: 20%;
+  height: 40%;
+  width: 60%;
+  z-index: 1;
+  top: 13%;
+
+}
+.next-but1{
+  position:absolute;
+right: 55%;
+  top:1700px;
+  z-index: 10;
+}
+.next-but2{
+  position:absolute;
+right:49%;
+  top:1700px;
+  z-index: 10;
+}
+.next-but3{
+  position:absolute;
+right: 43%;
+  top:1700px;
+  z-index: 10;
+}
+.next-but4{
+  position:absolute;
+right: 37%;
+  top:1700px;
+  z-index: 10;
+}
+
 .myImglink-pri {
   margin-top: auto;
   margin-bottom: auto;
